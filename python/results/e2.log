@@ -1,0 +1,18 @@
+Partition random large values (even total) 20 guards 1.72e-06 s fallback 5.53e-04 s overhead 0.302%
+Partition random large values (even total) 28 guards 6.46e-06 s fallback 1.46e-02 s overhead 0.046%
+Partition random large values (even total) 36 guards 6.60e-06 s fallback 2.50e-01 s overhead 0.003%
+Partition random large values (even total) 40 guards 6.78e-06 s fallback 1.04e+00 s overhead 0.001%
+Partition random large values (even total) 44 guards 6.55e-06 s fallback 3.78e+00 s overhead 0.000%
+SAT random 3-CNF (ratio 4.26) 30 guards 4.69e-01 s fallback 8.05e-04 s overhead 62026.381%
+SAT random 3-CNF (ratio 4.26) 40 guards 3.91e-01 s fallback 2.38e-03 s overhead 19466.241%
+SAT random 3-CNF (ratio 4.26) 50 guards 3.10e-01 s fallback 1.50e-03 s overhead 19613.066%
+SAT random 3-CNF (ratio 4.26) 60 guards 3.02e-01 s fallback 2.03e-02 s overhead 1583.150%
+SAT random 3-CNF (ratio 4.26), budget k=4 30 guards 2.66e-04 s fallback 6.85e-04 s overhead 38.689%
+SAT random 3-CNF (ratio 4.26), budget k=4 40 guards 2.86e-04 s fallback 3.02e-03 s overhead 11.563%
+SAT random 3-CNF (ratio 4.26), budget k=4 50 guards 3.15e-04 s fallback 3.39e-03 s overhead 9.135%
+SAT random 3-CNF (ratio 4.26), budget k=4 60 guards 3.40e-04 s fallback 2.26e-02 s overhead 1.590%
+Vertex Cover random graph (avg deg 6) 40 guards 5.98e-06 s fallback 1.52e-03 s overhead 0.388%
+Vertex Cover random graph (avg deg 6) 60 guards 8.49e-06 s fallback 5.18e-03 s overhead 0.183%
+Vertex Cover random graph (avg deg 6) 80 guards 8.77e-06 s fallback 3.27e-02 s overhead 0.029%
+Vertex Cover random graph (avg deg 6) 100 guards 9.27e-06 s fallback 1.12e-01 s overhead 0.009%
+done

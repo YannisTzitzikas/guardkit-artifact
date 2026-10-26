@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Java
+*.class
+bin/
+target/
+
+# IDE and local configuration
+.vscode/
+.settings/
+
+# Generated output (adjust to your project)
+logs/
+output/

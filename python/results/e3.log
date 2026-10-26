@@ -1,0 +1,7 @@
+calibration (hit rate, mean check cost): {'2-CNF': (0.183, '1.76e-06'), 'Horn': (0.25, '7.93e-06'), 'backdoor<=4': (0.583, '2.95e-04')}
+declared (2-CNF, Horn, backdoor)   verify 1.90e-04 s  total 2.91e-03 s  (1st half 1.89e-04, 2nd half 1.90e-04) order=['2-CNF', 'Horn', 'backdoor<=4']
+worst (backdoor first)             verify 3.83e-04 s  total 3.37e-03 s  (1st half 3.28e-04, 2nd half 4.37e-04) order=['backdoor<=4', 'Horn', '2-CNF']
+random                             verify 2.83e-04 s  total 3.11e-03 s  (1st half 2.92e-04, 2nd half 2.75e-04) order=None
+ratio-static (calibrated)          verify 1.99e-04 s  total 2.96e-03 s  (1st half 2.05e-04, 2nd half 1.93e-04) order=['2-CNF', 'Horn', 'backdoor<=4']
+ratio-adaptive (no priors)         verify 2.00e-04 s  total 2.93e-03 s  (1st half 2.03e-04, 2nd half 1.97e-04) order=['2-CNF', 'Horn', 'backdoor<=4']
+done

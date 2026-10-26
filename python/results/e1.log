@@ -1,0 +1,41 @@
+Partition all-equal 20 ['all-equal'] guarded med 0.0000 fallback med 0.0001
+Partition all-equal 28 ['all-equal'] guarded med 0.0000 fallback med 0.0016
+Partition all-equal 36 ['all-equal'] guarded med 0.0000 fallback med 0.0357
+Partition all-equal 40 ['all-equal'] guarded med 0.0000 fallback med 0.1740
+Partition all-equal 44 ['all-equal'] guarded med 0.0000 fallback med 0.7399
+Partition all-equal 1000 ['all-equal'] guarded med 0.0000 fallback med None
+Partition all-equal 10000 ['all-equal'] guarded med 0.0002 fallback med None
+Partition all-equal 100000 ['all-equal'] guarded med 0.0021 fallback med None
+Partition all-equal 1000000 ['all-equal'] guarded med 0.0207 fallback med None
+Partition arithmetic 20 ['arithmetic'] guarded med 0.0000 fallback med 0.0001
+Partition arithmetic 28 ['arithmetic'] guarded med 0.0000 fallback med 0.0007
+Partition arithmetic 36 ['arithmetic'] guarded med 0.0000 fallback med 0.0114
+Partition arithmetic 40 ['arithmetic'] guarded med 0.0000 fallback med 0.0605
+Partition arithmetic 44 ['arithmetic'] guarded med 0.0000 fallback med 0.3997
+Partition arithmetic 1000 ['arithmetic'] guarded med 0.0001 fallback med None
+Partition arithmetic 10000 ['arithmetic'] guarded med 0.0006 fallback med None
+Partition arithmetic 100000 ['arithmetic'] guarded med 0.0111 fallback med None
+Partition arithmetic 1000000 ['arithmetic'] guarded med 0.2094 fallback med None
+SAT 2-CNF (m=2n) 100 ['2-CNF'] guarded med 0.0002 fallback med 0.0010
+SAT 2-CNF (m=2n) 1000 ['2-CNF'] guarded med 0.0030 fallback med 0.0246
+SAT 2-CNF (m=2n) 10000 ['2-CNF'] guarded med 0.0463 fallback med 0.6200
+SAT 2-CNF (m=2n) 100000 ['2-CNF'] guarded med 0.7817 fallback med None
+SAT Horn (m=3n) 100 ['Horn'] guarded med 0.0002 fallback med 0.0023
+SAT Horn (m=3n) 1000 ['Horn'] guarded med 0.0020 fallback med 0.2267
+SAT Horn (m=3n) 10000 ['Horn'] guarded med 0.0277 fallback med 0.8192
+SAT Horn (m=3n) 100000 ['Horn'] guarded med 0.3752 fallback med None
+SAT backdoor k=6 (m=3n) 60 ['backdoor<=k'] guarded med 0.0139 fallback med 0.0124
+SAT backdoor k=6 (m=3n) 120 ['backdoor<=k'] guarded med 0.0276 fallback med 0.0642
+SAT backdoor k=6 (m=3n) 240 ['backdoor<=k'] guarded med 0.0611 fallback med 0.1628
+SAT backdoor k=6 (m=3n) 480 ['backdoor<=k'] guarded med 0.1246 fallback med 0.4707
+Vertex Cover forest 100 ['forest'] guarded med 0.0000 fallback med 0.0001
+Vertex Cover forest 1000 ['forest'] guarded med 0.0005 fallback med 0.0009
+Vertex Cover forest 10000 ['forest'] guarded med 0.0108 fallback med None
+Vertex Cover forest 100000 ['forest'] guarded med 0.0851 fallback med None
+Vertex Cover bipartite (avg deg 6) 50 ['bipartite'] guarded med 0.0001 fallback med 0.0011
+Vertex Cover bipartite (avg deg 6) 100 ['bipartite'] guarded med 0.0001 fallback med 0.0252
+Vertex Cover bipartite (avg deg 6) 200 ['bipartite'] guarded med 0.0003 fallback med 4.8055
+Vertex Cover bipartite (avg deg 6) 400 ['bipartite'] guarded med 0.0007 fallback med inf
+Vertex Cover bipartite (avg deg 6) 10000 ['bipartite'] guarded med 0.0457 fallback med None
+Vertex Cover bipartite (avg deg 6) 100000 ['bipartite'] guarded med 1.9073 fallback med None
+done

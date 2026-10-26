@@ -1,0 +1,23 @@
+{
+ "partition": {
+  "instances": 3000,
+  "disagreements": 0
+ },
+ "sat": {
+  "instances": 2000,
+  "disagreements": 0,
+  "guard_hits": {
+   "2-CNF": 516,
+   "Horn": 614,
+   "backdoor": 1859
+  }
+ },
+ "vertex_cover": {
+  "instances": 1500,
+  "disagreements": 0,
+  "guard_hits": {
+   "forest": 897,
+   "bipartite": 1179
+  }
+ }
+}

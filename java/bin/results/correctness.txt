@@ -1,0 +1,4 @@
+Partition:    3000 instances, 0 disagreements
+SAT:          2000 instances, 0 disagreements (guard matches: 2-CNF 528, Horn 615, backdoor 1886)
+Vertex Cover: 1500 instances, 0 disagreements (guard matches: forest 866, bipartite 1163)
+ALL CORRECT

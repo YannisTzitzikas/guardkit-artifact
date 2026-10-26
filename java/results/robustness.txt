@@ -1,0 +1,10 @@
+ratio rule vs brute-force optimum, max relative gap: 0.00
+ratio rule           mean 1.000  p95 1.000  max 1.000
+cheapest first       mean 1.062  p95 1.264  max 1.749
+most likely first    mean 1.379  p95 2.026  max 3.955
+random               mean 2.260  p95 4.887  max 24.149
+rho=1.0              mean 1.000  p95 1.000  max 1.000
+rho=1.5              mean 1.001  p95 1.003  max 1.059
+rho=2.0              mean 1.002  p95 1.011  max 1.082
+rho=4.0              mean 1.006  p95 1.040  max 1.261
+rho=8.0              mean 1.014  p95 1.083  max 1.376

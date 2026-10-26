@@ -1,0 +1,103 @@
+{
+ "calibration": {
+  "2-CNF": [
+   0.18333333333333332,
+   1.7561666690350345e-06
+  ],
+  "Horn": [
+   0.25,
+   7.928416662631814e-06
+  ],
+  "backdoor<=4": [
+   0.5833333333333334,
+   0.0002952774333304357
+  ]
+ },
+ "n": 100,
+ "k": 4,
+ "requests": 400,
+ "mix": [
+  [
+   "2-CNF",
+   0.15
+  ],
+  [
+   "Horn",
+   0.3
+  ],
+  [
+   "backdoor",
+   0.45
+  ],
+  [
+   "random 3-CNF",
+   0.1
+  ]
+ ],
+ "rows": [
+  {
+   "policy": "declared (2-CNF, Horn, backdoor)",
+   "mean_verify": 0.00018971258500187106,
+   "mean_total": 0.0029061980400021527,
+   "mean_verify_first_half": 0.00018932423000023846,
+   "mean_verify_second_half": 0.00019010094000350365,
+   "final_order": [
+    "2-CNF",
+    "Horn",
+    "backdoor<=4"
+   ]
+  },
+  {
+   "policy": "worst (backdoor first)",
+   "mean_verify": 0.000382523662499068,
+   "mean_total": 0.0033671092024999895,
+   "mean_verify_first_half": 0.0003277051350016791,
+   "mean_verify_second_half": 0.0004373421899964569,
+   "final_order": [
+    "backdoor<=4",
+    "Horn",
+    "2-CNF"
+   ]
+  },
+  {
+   "policy": "random",
+   "mean_verify": 0.00028328298499587847,
+   "mean_total": 0.0031054040224961455,
+   "mean_verify_first_half": 0.0002916752350006391,
+   "mean_verify_second_half": 0.00027489073499111785,
+   "final_order": null
+  },
+  {
+   "policy": "ratio-static (calibrated)",
+   "mean_verify": 0.00019885870000678097,
+   "mean_total": 0.0029574168425054383,
+   "mean_verify_first_half": 0.0002050097250031513,
+   "mean_verify_second_half": 0.00019270767501041063,
+   "final_order": [
+    "2-CNF",
+    "Horn",
+    "backdoor<=4"
+   ]
+  },
+  {
+   "policy": "ratio-adaptive (no priors)",
+   "mean_verify": 0.00020003722499581044,
+   "mean_total": 0.0029295381599942515,
+   "mean_verify_first_half": 0.00020302004999166455,
+   "mean_verify_second_half": 0.00019705439999995634,
+   "final_order": [
+    "2-CNF",
+    "Horn",
+    "backdoor<=4"
+   ]
+  }
+ ],
+ "environment": {
+  "python": "3.12.3",
+  "implementation": "CPython",
+  "machine": "x86_64",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.80GHz",
+  "cores": 1,
+  "system": "Linux"
+ }
+}
